@@ -4,5 +4,5 @@ print "Random 5x5 array is:", "\n", X
 print "\n"
 xbar = np.mean(X)
 xstd = np.std(X)
-Z = X - xbar / xstd
+Z = (X - xbar) / xstd
 print "Normalized array is:", "\n", Z
